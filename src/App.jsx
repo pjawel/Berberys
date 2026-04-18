@@ -111,7 +111,7 @@ const Hero = () => {
   );
 };
 
-const FeatureCard = ({ icon: Icon, title, description }: { icon: any, title: string, description: string }) => (
+const FeatureCard = ({ icon: Icon, title, description }) => (
   <motion.div 
     whileHover={{ y: -5 }}
     className="bg-white/50 p-8 rounded-[2rem] border border-brand-primary/5 backdrop-blur-sm"
@@ -390,4 +390,3 @@ export default function App() {
     </div>
   );
 }
-
